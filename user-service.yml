@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;
+    username: sa
+    password: 
+
+app:
+  payment:
+    apiToken: '{cipher}AYBiqIwR47EUXVMiUUgQA3MY65xE1hPU53UhatBAH5eoDPTnWnUBggXrGYtBCgy2+wpCZieRQLYA1w+pA6U81RdD/FyEVKwxEoPfuwgQaaFNPBkbxKc1Ag1ot1jpGM+P5uiROQ5bSd40Dh6Yzf+crbZwpe4szLddmJ7fs4NaHCT4OEsRrEpe2wPZwnGyTQQyH05N4O7WVhNFnSqS8IWHnmRjkKTgMW8gFYt1f1pZ8uUaFo71vjQ9zrcwjtIGJuXepq2001XW3/y+oKkXLmoHlbWlUxS9auuRI7QpZIqBjrIqjQ74pdHsyVwIyl6I690UleggooE8WmSs/EFQipsLOLJG8ShLisuKnZcG4xn+cw2OTt8YNCZpH2HojSCVP5RmsFnrvoli3IbdLNme8dD95yg7jQZvGZLyZGtA4HNdqerXCtDSleFcxvzCu3LW1AOv0lhfxMT70qBXlMjX2bHtnmCJ/ZABESX6nXoUB3GFSmWHvmEr0pixEQMOmIb77p6i0t6NOSgz2Qt7RjxnhgMlbUBsp9l83cHeDt4E1BDkHp8VccghjEfAI0jVoSPULOQdOVs='
+
+logging:
+  level:
+    root: INFO
